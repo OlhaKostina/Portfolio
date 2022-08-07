@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="descripyion"
+      content="About Olha. Olha is a front-end developer based in Ukraine"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,9 +30,39 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/styles/style.css" />
-    <title>Document</title>
+    <title>About Olha_Olha Kostina</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="SheCodes logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="SheCodes logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Olha">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Olha's work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Olha">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="container content-section">
       <div class="row">
         <div class="col-lg-6">
@@ -41,13 +75,70 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="#" class="btn btn-branding">View my projects</a>
+            <a href="/work.html" class="btn btn-branding" title="My projects"
+              >View my projects</a
+            >
           </div>
         </div>
         <div class="col-lg-6">
           <img src="/images/Patricia.png" alt="" class="img-fluid rounded" />
         </div>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Olha"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:olhakostina@gmail.com"
+            class="email-link"
+            title="Email Olha"
+            >olhakostina@gmail.com"</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://github.com/OlhaKostina"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/olha-kostina-8b7a44a4/"
+            target="_blank"
+            title="Linkedin Profile"
+          >
+            <i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/koskairos/"
+            target="_blank"
+            title="Instagram Profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+        <p class="text-center text-muted mt-5">
+          This project was coded by Olha Kostina and it's
+          <a
+            href="https://github.com/OlhaKostina/Portfolio"
+            target="_blank"
+            title="GitHub"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>

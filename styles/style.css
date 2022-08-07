@@ -24,7 +24,7 @@ h1 {
 h2 {
   font-size: 64px;
 }
-h4 {
+h3 {
   font-size: 48px;
 }
 p {
@@ -60,7 +60,7 @@ footer {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -95,7 +95,7 @@ footer {
   padding: 120px 60px;
 }
 .content-section {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content h1 {
   font-size: 64px;
@@ -163,14 +163,11 @@ footer {
   h2 {
     font-size: 44px;
   }
-  h4 {
+  h3 {
     font-size: 26px;
   }
   nav a {
     font-size: 14px;
-  }
-  .hero {
-    padding: 80px 20px;
   }
   .project-description {
     padding: 0;
