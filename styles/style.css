@@ -158,6 +158,19 @@ footer {
 .contact-box p {
   margin: 0;
 }
+.skillset-content li {
+  text-align: center;
+  padding: 8px;
+}
+.skills-logo {
+  width: 60px;
+}
+.skills {
+  background-color: white;
+  font-size: 10px;
+  text-align: center;
+  padding: 0px;
+}
 
 @media (max-width: 900px) {
   h1 {
