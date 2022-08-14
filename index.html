@@ -33,25 +33,43 @@
     <title>Front-end developer_Olha Kostina</title>
   </head>
   <body>
-    <div class="container">
-      <nav class="d-flex justify-content-between bg-light fixed-top">
-        <a href="/" title="Homepage" class="name"> Olha Kostina </a>
-        <ul class="x">
-          <li class="active">
-            <a href="/" title="Homepage">Home</a>
-          </li>
-          <li>
-            <a href="/about.html" title="About Olha">About</a>
-          </li>
-          <li>
-            <a href="/work.html" title="Olha's work">Work</a>
-          </li>
-          <li>
-            <a href="/contact.html" title="Contact Olha">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="name" href="/" title="Homepage">Olha Kostina</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="d-lg-flex ms-5 p-2 justify-content-end collapse navbar-collapse"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <ul>
+              <li class="active">
+                <a href="/" title="Homepage">Home</a>
+              </li>
+              <li>
+                <a href="/about.html" title="About Olha">About</a>
+              </li>
+              <li>
+                <a href="/work.html" title="Olha's work">Work</a>
+              </li>
+              <li>
+                <a href="/contact.html" title="Contact Olha">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
     <div class="hero">
       <p>👋Hello, I am</p>
       <h1>Olha Kostina</h1>
